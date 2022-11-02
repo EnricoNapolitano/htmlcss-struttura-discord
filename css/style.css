@@ -1,0 +1,48 @@
+/* CSS reset */
+* {
+    margin: 0;
+    box-sizing: borderbox;
+}
+
+/* Generics */
+header {
+    background-color:lightblue;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: goldenrod;
+    max-width: 70%;
+    justify-content: space-between;
+    border: 3px dashed black;
+    flex-wrap: wrap;
+}
+
+ul {
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/* utilities */
+.flex {
+    display: flex;
+}
+
+.center-navbar {
+    align-items: center;
+    border-left: 3px dashed black;
+    border-right: 3px dashed black;
+    flex-wrap: wrap;
+}

@@ -13,6 +13,11 @@ header {
     justify-content: center;
 }
 
+footer {
+    background-color:darkslategray;
+    min-height: 740px;
+}
+
 nav {
     background-color: goldenrod;
     width: 70%;
@@ -35,11 +40,8 @@ a {
     text-decoration: none;
 }
 
-footer {
-    background-color:darkslategray;
-    min-height: 740px;
-    align-items: flex-start;
-    justify-content: center;
+hr {
+    margin: 20px 0;
 }
 
 /* utilities */
@@ -112,6 +114,11 @@ footer {
 }
 
 /* footer */
+.footer-colomn {
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .bg-coral {
     min-height: 600px;
     flex-basis: 20%;
@@ -131,4 +138,28 @@ footer {
     min-height: 600px;
     flex-basis: 25%;
     border: 2px dashed white;
+}
+
+.footer-end {
+    min-height: 80px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.band-footer-end {
+    width: 70%;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+}
+
+.square {
+    background-color: pink;
+    padding: 5px;
+    border: 2px dashed black;
+}
+
+#closing-hr {
+    margin: 0;
 }

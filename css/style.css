@@ -15,7 +15,7 @@ header {
 
 nav {
     background-color: goldenrod;
-    max-width: 70%;
+    width: 70%;
     justify-content: space-between;
     border: 3px dashed black;
     flex-wrap: wrap;
@@ -40,9 +40,21 @@ a {
     display: flex;
 }
 
+/* header */
 .center-navbar {
     align-items: center;
     border-left: 3px dashed black;
     border-right: 3px dashed black;
     flex-wrap: wrap;
+}
+
+.h-blue {
+    min-height: 500px;
+    background-color: darkblue;
+}
+
+.d-pink {
+    min-height: 350px;
+    width: 50%;
+    background-color: pink;
 }

@@ -57,4 +57,27 @@ a {
     min-height: 350px;
     width: 50%;
     background-color: pink;
+    border: 3px dashed black;
+}
+
+/* main */
+.bg-white {
+    min-height: 500px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-lightblue {
+    min-height: 400px;
+    background-color:cornflowerblue;
+    flex-basis: 50%;
+    border: 2px dashed black;
+}
+
+.bg-lightpink {
+    min-height: 400px;
+    background-color: lightpink;
+    flex-basis: 20%;
+    border: 2px dashed black;
 }

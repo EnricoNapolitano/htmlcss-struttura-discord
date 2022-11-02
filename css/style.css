@@ -71,13 +71,21 @@ a {
 .bg-lightblue {
     min-height: 400px;
     background-color:cornflowerblue;
-    flex-basis: 50%;
+    flex-basis: 40%;
     border: 2px dashed black;
 }
 
 .bg-lightpink {
     min-height: 400px;
     background-color: lightpink;
-    flex-basis: 20%;
+    flex-basis: 30%;
     border: 2px dashed black;
+}
+
+.bg-grey {
+    min-height: 500px;
+    background-color:lightgray;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
